@@ -1,0 +1,14 @@
+# This is the nautix file for GWebDownloader
+# Better to refer the documentation for writting nautix file if you need, Othervise leave this file to be default it will work more
+project-name=GWebDownloader
+project-version=1.0
+project-compiler=gcc
+project-main-file=main.cpp
+project-bin-directory=.
+project-main-output-file=main
+# temprorary binaries are those who will be deleted after program is being executed and perm binaries are those which will exist ever after project is done, So play with the setting bellow accordingly
+project-bin-type=perm
+# Uncomment the line bellow if want to parse any arguments for compiler, these will be placed in between file name and -o flag by nautix
+# project-compiler-arguments=# Uncomment the line bellow if want to parse any additional file for linking
+project-link-cpp=`pkg-config --cflags --libs gtk+-3.0 webkit2gtk-4.0`
+execute-project=true
