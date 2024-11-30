@@ -1,6 +1,6 @@
 /*
  * Copyright (c) GWebDownloader 2024
- * Written by [authorname]
+ * Written by ghgltggamer
  * Check the LICENSE file for Licensing info
  * Check out the README.md file for more information
  */
